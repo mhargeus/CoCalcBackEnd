@@ -50,7 +50,7 @@ namespace CoCalcBackEnd.Controllers
             car.brand = request.brand;
             car.model = request.model;
             car.engine = request.engine;
-            car.wltp = request.wltp;
+            car.wltp = request.wltp;    
 
             await _context.SaveChangesAsync();
             return Ok(cars);
