@@ -50,6 +50,8 @@ namespace CoCalcBackEnd.Controllers
             car.brand = request.brand;
             car.model = request.model;
             car.engine = request.engine;
+            car.year = request.year;
+            car.fuelConsumption = request.fuelConsumption;
             car.wltp = request.wltp;    
 
             await _context.SaveChangesAsync();

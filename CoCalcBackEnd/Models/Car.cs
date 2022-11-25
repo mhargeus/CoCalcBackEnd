@@ -6,7 +6,9 @@ public class Car
     public int id { get; set; }
     public string brand { get; set; } = string.Empty;
     public string model { get; set; } = string.Empty;
+    public string year { get; set; } = string.Empty;
     public string engine { get; set; } = string.Empty ;
+    public int fuelConsumption { get; set; }
     public int wltp { get; set; }
 
 }
